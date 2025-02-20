@@ -37,3 +37,35 @@ footer {
     color: #fff;
     background-color: #333;
 }
+
+/* homework CSS starts here*/
+#LearnMoreButton {
+    text-align: center;
+}
+.image-container-about {
+    text-align: center;
+}
+main .team-title {
+    color: lightcoral;
+
+}
+main #Team {
+    text-align: center;
+    color: #AAAAAA;
+    background-color: #555;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main section .company-title{
+    text-align: center;
+    border: coral;
+    color: ghostwhite;
+    background-color: black;
+    font-weight: bold;
+}
+#company-text {
+    text-align: center;
+    color:deepskyblue;
+    background-color: #555;
+    font-size: large;
+
+}
