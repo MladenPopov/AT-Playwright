@@ -4,8 +4,7 @@
 // Step 3: Log the result
 
 let num : number = 15;
-let isEven: boolean ;
-isEven = (num % 2 ) === 0;
+let isEven: boolean = (num % 2 ) === 0;
 console.log("Is the number even?" , isEven)
 
 
@@ -14,8 +13,7 @@ console.log("Is the number even?" , isEven)
 // Step 2: Declare a variable `isLong` and check if the length of `text` is greater than 10.
 // Step 3: Log the result
 let text : string = "bigStringWithManyLetters";
-let isLong : boolean;
-isLong = text.length > 10;
+let isLong : boolean = text.length > 10;
 console.log("Is the length of the string mora than 10 chars ? ", isLong)
 
 // Exercise 3: Verify if a number is positive
@@ -23,8 +21,7 @@ console.log("Is the length of the string mora than 10 chars ? ", isLong)
 // Step 2: Declare a variable `isPositive` and check if `number` is greater than 0.
 // Step 3: Log the result
 let numberTask3: number = -20;
-let isPositive: boolean;
-isPositive = numberTask3 > 0;
+let isPositive: boolean = numberTask3 > 0;
 console.log("Is the number positive?" , isPositive)
 
 // Exercise 4: Determine if a number is negative or zero
@@ -32,8 +29,7 @@ console.log("Is the number positive?" , isPositive)
 // Step 2: Declare a variable `isNonPositive` and check if `numCheck` is less than or equal to 0.
 // Step 3: Log the result
 let numCheck : number = 0;
-let isNonPositive : boolean ;
-isNonPositive = numCheck <= 0;
+let isNonPositive : boolean = numCheck <= 0;
 console.log("Is the number less than or equal to 0?" , isNonPositive);
 
 // Exercise 5: Check if a string is empty
@@ -41,8 +37,7 @@ console.log("Is the number less than or equal to 0?" , isNonPositive);
 // Step 2: Declare a variable `isEmpty` and check if `message` is an empty string.
 // Step 3: Log the result
 let message1 : string = "anyString";
-let isEmpty : boolean;
-isEmpty = message1.length > 0;
+let isEmpty : boolean = message1.length > 0;
 console.log("Is this an emptry string", isEmpty);
 
 // Exercise 6: Determine if a number is within a range (10 to 100 inclusive)
@@ -50,8 +45,7 @@ console.log("Is this an emptry string", isEmpty);
 // Step 2: Declare a variable `isInRange` and check if `rangeNumber` is between 10 and 100 (inclusive).
 // Step 3: Log the result
 let rangeNumber : number = 67;
-let isInRange : boolean;
-isInRange = rangeNumber >= 10 && rangeNumber <= 100;
+let isInRange : boolean = rangeNumber >= 10 && rangeNumber <= 100;
 console.log("Is the number in range betwee 10 and 100 included", isInRange);
 
 // Exercise 7: Check if a number is either 0 or 100
@@ -59,8 +53,7 @@ console.log("Is the number in range betwee 10 and 100 included", isInRange);
 // Step 2: Declare a variable `isZeroOrHundred` and check if `specialNumber` is either 0 or 100.
 // Step 3: Log the result
 let specialNumber : number = 100;
-let isZeroOrHundred : boolean;
-isZeroOrHundred = specialNumber === 0 || specialNumber === 100;
+let isZeroOrHundred : boolean = specialNumber === 0 || specialNumber === 100;
 console.log("Is the number equal to 0 or to a 100?", isZeroOrHundred)
 
 // Exercise 8: Verify if a boolean value is true
@@ -68,8 +61,7 @@ console.log("Is the number equal to 0 or to a 100?", isZeroOrHundred)
 // Step 2: Declare a variable `isTrue` and check if `flag` is true.
 // Step 3: Log the result
 let flag: boolean = true ;
-let isTrue : boolean;
-isTrue = flag === true; 
+let isTrue : boolean = flag === true; 
 console.log("Is the flag set to 'true'", isTrue);
 
 // Exercise 9: Check if a number is odd and greater than 50
@@ -77,8 +69,7 @@ console.log("Is the flag set to 'true'", isTrue);
 // Step 2: Declare a variable `isOddAndLarge` and check if `oddCheck` is odd and greater than 50.
 // Step 3: Log the result
 let oddCheck : number = 155;
-let isOddAndLarge : boolean;
-isOddAndLarge = (oddCheck % 2) > 0 && oddCheck > 50;
+let isOddAndLarge : boolean = (oddCheck % 2) > 0 && oddCheck > 50;
 console.log("Is the number odd and larger than 50 ? ", isOddAndLarge);
 
 // Exercise 10: Determine if a string starts with the letter 'A'
@@ -87,6 +78,5 @@ console.log("Is the number odd and larger than 50 ? ", isOddAndLarge);
 // Step 3: Log the result
 
 let word : string = "abcdefgh";
-let startsWithA : boolean; 
-startsWithA = word.startsWith("a");
+let startsWithA : boolean = word.startsWith("a");
 console.log("Does the string start with letter A?", startsWithA)
