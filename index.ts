@@ -48,3 +48,36 @@ console.log("areNumbersEqualTo", areNumbersEqualTo)
 let stringValue: any = 'Hello';
 stringValue = 5;
 stringValue = 10 === 10;
+
+
+//ternary operator
+const isPositiveNum : string = 5 > 0 ? "Number is positive." : "Number is negative.";
+
+const age: number = 30;
+const myName: string = "Pesho";
+const personDescription = age < 40 ? `${myName} is younger than 40. He is ${age} years old` : `${myName} is older than 40. He is ${age} years old`;
+
+const personName = `His name is "${myName}"`;
+
+//If else statemet
+
+if (age < 40) {
+    console.log("Age is lower than 40.")
+} else {
+    console.log("Age is greater than 40.")
+}
+
+const num2: number = 50;
+if (num2 < 10) {
+    console.log ("The number is lower than 10")
+} else if (num > 100 ){ 
+    console.log ("The number is greater than 100.")
+}
+else {
+    console.log ("The number is between 10 and 100")
+}
+
+//type aliases
+type PersonInfoType = string | number;
+const personInfoName : PersonInfoType = "Ivan"
+const personInfoAge : PersonInfoType = 25;
