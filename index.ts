@@ -81,3 +81,24 @@ else {
 type PersonInfoType = string | number;
 const personInfoName : PersonInfoType = "Ivan"
 const personInfoAge : PersonInfoType = 25;
+
+type Status = "approved" | "rejected" | "pending" | "fullfiled";
+
+const currentStatus: Status = "fullfiled"
+
+type PersonData = {
+    name : string,
+    lastName: string,
+    age: number,
+    city ? : string
+}
+
+function displayePersonData ({name, lastName, age, city}: PersonData) : string {
+    if (city) {
+        
+        return `${name} ${lastName} from ${city} is ${age} years old`
+    }
+    return `This is ${name}, ${lastName} and is ${age} years old`
+}
+
+//displayePersonData(20, "Pesho", "Petrov")
