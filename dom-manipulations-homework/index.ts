@@ -14,7 +14,7 @@ listItems[2].textContent = "pears";
 const button  = document.getElementById("clickMe") as HTMLElement;
 
 if (button) {
-    button.style.border = "1px  solid red"
+    button.style.border = "1px solid red"
 }
 
 
